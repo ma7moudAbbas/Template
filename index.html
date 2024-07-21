@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <!-- Site Title -->
+    <title>Archly - Architecture HTML Template</title>
+
+    <!-- Place favicon.ico in the root directory -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="apple-touch-icon" href="assets/images/fav.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" /> -->
+    <link rel = "stylesheet" href = "assets/css/flaticon_archly.css" />
+    <link rel = "stylesheet" href = "assets/css/odometer.min.css" />
+    <link rel = "stylesheet" href = "assets/css/swiper.min.css" />
+    <link rel = "stylesheet" href = "assets/css/owl.carousel.css" />
+    <link rel = "stylesheet" href = "assets/css/magnific-popup.css" />
+    <link rel = "stylesheet" href = "assets/css/animate.min.css" />
+    <link rel = "stylesheet" href = "assets/css/nice-select.css" />
+    <link rel = "stylesheet" href = "assets/css/backToTop.css" />
+    <link rel = "stylesheet" href = "assets/css/meanmenu.css" />
+    <link rel = "stylesheet" href = "assets/css/main.css" />
+    <!-- <link rel = "stylesheet" href = "assets/css/font-awesome-pro.min.css" /> -->
+
+</head>
+
+<body>
+    <!-- start: Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="lines">
+                <span class = "line line-1"></span>
+                <span class = "line line-2"></span>
+                <span class = "line line-3"></span>
+                <span class = "line line-4"></span>
+                <span class = "line line-5"></span>
+                <span class = "line line-6"></span>
+                <span class = "line line-7"></span>
+                <span class = "line line-8"></span>
+                <span class = "line line-9"></span>
+            </div>
+            <div class="text">Loading</div>
+        </div>
+        <button class="tj-cancel-btn">Cancel Preloader</button>
+    </div>
+    <!-- end: Preloader -->
+
+    <!-- start: Search Popup -->
+    <div class="search_popup">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <div class="search_wrapper">
+                        <div class="search_top d-flex justify-content-between align-items-center">
+                            <div class="search_logo">
+                                <a href="index.html">
+                            <img src="assets/images/logos/primary-logo.png" alt="Logo" />
+                        </a>
+                            </div>
+                            <div class="search_close">
+                                <button type="button" class="search_close_btn">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search_form">
+                        <form action="#">
+                            <div class="search_input">
+                                <input class="search-input-field" type="text" placeholder="" />
+                                <span class="search-focus-border"></span>
+                                <button type="submit">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                        d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        />
+                                        <path
+                                        d="M19.0002 19.0002L17.2002 17.2002"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="search-popup-overlay"></div>
+    <!-- end: Search Popup -->
+
+    <!-- start: Back To Top -->
+    <div class="progress-wrap" id="scrollUp">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- end: Back To Top -->
+
+    <!-- start: Offcanvas area -->
+    <div class="offcanvas-area d-none d-lg-inline-block">
+        <div class="offcanvas-close">
+            <a class="canva_close" href="#"><span><i class="fa-solid fa-xmark"></i></span>
+            </a>
+        </div>
+        <div class="offcanvas-wrapper">
+            <div class="side-infos">
+                <div class="side-logo">
+                    <img src="assets/images/logos/primary-logo.png" alt="Logos" />
+                </div>
+                <div class="desc">
+                    <p>
+                        Professional known as the architects are responsible for creating designs Sed ut perspiciatis unde omni natus voluptatem accusantium doloremque laudantium aperia maquep quae abillo inventore veritatis architecto
+                    </p>
+                </div>
+                <div class="socials-infos">
+                    <h5 class="title">Follow Us</h5>
+                    <div class="sidebar-socials">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4 class="side-title">Get In Touch</h4>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span><i class="fa-solid fa-phone"></i></span>
+                    </div>
+                    <div class="contact-text">
+                        <span>Call anytime</span>
+                        <ul>
+                            <li><a class="link" href="tel:+88235(000)-9630">+ 88235 (000) - 9630</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                    </div>
+                    <div class="contact-text">
+                        <span>Send Email</span>
+                        <ul>
+                            <li><a class="link" href="mailto:info@company.com">info@company.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                    </div>
+                    <div class="contact-text">
+                        <span>Visit Office</span>
+                        <ul>
+                            <li>24 Division, New York</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="side-newsletter">
+                <h4 class="side-title">Newsletter</h4>
+                <div class="newsletter-input">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required="" />
+                    <button class="tj-secondary-btn">Subscribe Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="widget_gallery popup-gallery">
+            <a class="footer-gallery-item" href="assets/images/project/project-5.jpg"><img src="assets/images/project/project-5.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+            <a class="footer-gallery-item" href="assets/images/project/project-6.jpg"><img src="assets/images/project/project-6.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+            <a class="footer-gallery-item" href="assets/images/project/project-7.jpg"><img src="assets/images/project/project-7.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+            <a class="footer-gallery-item" href="assets/images/project/project-8.jpg"><img src="assets/images/project/project-8.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+            <a class="footer-gallery-item" href="assets/images/project/project-9.jpg"><img src="assets/images/project/project-9.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+            <a class="footer-gallery-item" href="assets/images/project/project-10.jpg"><img src="assets/images/project/project-10.jpg" alt="Images" />
+            <div class="gallery-icon">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            </a>
+        </div>
+    </div>
+    <!-- end: Offcanvas area -->
+
+    <div class="body-overlay"></div>
+    <!-- start: Hamburger Menu -->
+    <div class="hamburger-area d-lg-none">
+        <div class="hamburger_bg"></div>
+        <div class="hamburger_wrapper">
+            <div class="hamburger_top d-flex align-items-center justify-content-between">
+                <div class="hamburger_logo">
+                    <a href="index.html" class="mobile_logo">
+                    <img src="assets/images/logos/primary-logo.png" alt="Logo" />
+                </a>
+                </div>
+                <div class="hamburger_close">
+                    <button class="hamburger_close_btn"><i class="fa-solid fa-times"></i></button>
+                </div>
+            </div>
+            <div class="hamburger_search">
+                <form method="get" action="index.html">
+                    <button type="submit"><i class="fa-solid fa-search"></i></button>
+                    <input type="search" autocomplete="off" name="s" value="" placeholder="Search here" />
+                </form>
+            </div>
+            <div class="hamburger_menu">
+                <div class="mobile_menu"></div>
+            </div>
+            <div class="mobile-contact">
+                <div class="footer-title">
+                    <h4 class="title">Contact Us</h4>
+                </div>
+                <div class="contact-list">
+                    <ul>
+                        <li>
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <a href="tel:+000(123)85511">+ 000 (123) 855 11</a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <a href="mailto:info@company.com
+                        ">info@company.com
+                        </a>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-location-dot"></i></span> 7525 14th Avenue NY
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobile-socials">
+                <ul>
+                    <li><a href="#">Fb.</a></li>
+                    <li><a href="#">Tw.</a></li>
+                    <li><a href="#">In.</a></li>
+                    <li><a href="#">Be.</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end: Hamburger Menu -->
+
+    <!-- start: Header Area -->
+    <header class="tj-header-area header-absolute header-sticky header-1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mainmenu-wrapper">
+                        <div class="site-logo d-lg-none">
+                            <a class="logo" href="index.html">
+                        <img src="assets/images/logos/primary-logo.png" alt="Logo" />
+                        </a>
+                        </div>
+                        <div class="header-left-infos">
+                            <div class="side-menu d-none d-lg-inline-flex">
+                                <button class="canva_expander">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                            </div>
+                            <div class="mobile-bar d-block d-lg-none">
+                                <button class="canva_expander nav-menu-link menu-button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                            </div>
+                            <div class="header-media d-none d-lg-inline-flex">
+                                <ul>
+                                    <li class="header-search d-none d-lg-inline-flex">
+                                        <button class="search">
+                                            <i class="fa-solid fa-search"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="primary-header-inner">
+                            <div class="site-logo primary_logo d-lg-none">
+                                <a class="logo" href="index.html">
+                            <img src="assets/images/logos/primary-logo.png" alt="Logo" />
+                        </a>
+                            </div>
+                            <div class="move_logo_wrap d-none d-lg-block">
+                                <div class="site-logo">
+                                    <a class="logo" href="index.html">
+                                <img src="assets/images/logos/primary-logo.png" alt="Logo" />
+                            </a>
+                                </div>
+                                <div class="mainmenu main-mobile-menu d-none d-lg-inline-flex" id="main-menu">
+                                    <ul>
+                                        <li class="has-dropdown current-menu-item">
+                                            <a href="index.html">Home <i class="fa-solid fa-caret-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="current-menu-item"><a href="index.html">Home One</a></li>
+                                                <li><a href="index-2.html">Home Two</a></li>
+                                                <li><a href="index-3.html">Home Three</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="has-dropdown">
+                                            <a href="service.html">Services <i class="fa-solid fa-caret-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="service.html">Services</a></li>
+                                                <li><a href="service-details.html">Service Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="javascript:void(0)">Pages <i class="fa-solid fa-caret-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="has-dropdown">
+                                                    <a href="project.html">Projects<i class="fa-solid fa-caret-right"></i></a>
+                                                    <ul class="sub-menu">
+                                                        <li>
+                                                            <a href="project.html">Projects</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="project-details.html">Project Details</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="team.html">Team</a>
+                                                </li>
+                                                <li>
+                                                    <a href="team-details.html">Team Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="javascript:void(0)">Blog <i class="fa-solid fa-caret-down"></i></a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="blog-standard.html">Blog Standard</a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single.html">Blog Single</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-socials d-none d-lg-inline-flex">
+                            <ul>
+                                <li><a href="#">Fb.</a></li>
+                                <li><a href="#">Tw.</a></li>
+                                <li><a href="#">In.</a></li>
+                                <li><a href="#">Be.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end: Header Area -->
+
+    <main id="primary" class="site-main">
+        <!-- start: Slider Area -->
+        <section class="tj-slider-section preloader-intro" data-bg-image="assets/images/bg/slider-bg.jpg">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <div class="swiper hero-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide tj-slider-item">
+                                    <div class="slider-content-area" data-bg-image="assets/images/slider/slider-1.jpg">
+                                        <div class="slider-text">
+                                            <span class="sub-title">Welcome to Archly</span>
+                                            <h1 class="slider-title">
+                                                From <span>Sketch</span> <br /> to Life
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide tj-slider-item">
+                                    <div class="slider-content-area" data-bg-image="assets/images/slider/slider-2.jpg">
+                                        <div class="slider-text">
+                                            <span class="sub-title">Welcome to Archly</span>
+                                            <h1 class="slider-title">
+                                                From <span>Sketch</span> <br /> to Life
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-navigation">
+                                <div class="slider-prev"><img src="assets/images/icons/slider-1.png" alt="Arrow" /></div>
+                                <div class="slider-next"><img src="assets/images/icons/slider-2.png" alt="Arrow" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Slider Area -->
+
+        <!-- start: Project Area -->
+        <section class="tj-project-section">
+            <div class="container">
+                <div class="project-top-content-area">
+                    <div class="tj-heading-area wow fadeInLeft" data-wow-delay=".3s">
+                        <h2 class="title">Our Latest Project</h2>
+                    </div>
+                    <div class="project-button d-none d-md-inline-flex wow fadeInRight" data-wow-delay=".4s">
+                        <a href="project-details.html" class="tj-primary-btn">View More Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-middle-content-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8"></div>
+                        <div class="col-lg-4">
+                            <div class="project-item wow fadeInRight" data-wow-delay=".6s">
+                                <div class="project-images">
+                                    <img src="assets/images/project/project-2.jpg" alt="Images" />
+                                </div>
+                                <div class="project-content">
+                                    <span>Strasbourg, France</span>
+                                    <h5 class="project-title"><a href="project-details.html">European Lard Station</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-left-images wow zoomIn" data-wow-delay=".5s">
+                    <img src="assets/images/project/project-1.jpg" alt="Images" />
+                </div>
+            </div>
+            <div class="project-bottom-content-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="project-item wow fadeInLeft" data-wow-delay=".9s">
+                                <div class="project-images">
+                                    <img src="assets/images/project/project-3.jpg" alt="Images" />
+                                </div>
+                                <div class="project-content">
+                                    <span>Aqaba, Jordan</span>
+                                    <h5 class="project-title"><a href="project-details.html">Dance & Music Theatre</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8"></div>
+                    </div>
+                </div>
+                <div class="project-right-images wow zoomIn" data-wow-delay=".7s">
+                    <img src="assets/images/project/project-4.jpg" alt="Images" />
+                </div>
+            </div>
+            <div class="project-button d-flex justify-content-center d-md-none">
+                <a href="project-details.html" class="tj-primary-btn">View More Projects</a>
+            </div>
+        </section>
+        <!-- end: Project Area -->
+
+        <!-- start: About Area -->
+        <section class="tj-about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about-wrapper">
+                            <div class="about-content">
+                                <div class="tj-heading-area">
+                                    <h2 class="title wow fadeInUp" data-wow-delay=".3s">
+                                        Architectures<br /> With People in Mind
+                                    </h2>
+                                    <div class="desc wow fadeInUp" data-wow-delay=".4s">
+                                        <p>
+                                            Professional organizations, like the American Institute of Architects (AIA), provide support & resources for architects. Globalization has led to the exchange..
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="about-auother wow fadeInUp" data-wow-delay=".5s">
+                                    <img src="assets/images/about/about-3.png" alt="Images" />
+                                </div>
+                            </div>
+                            <div class="about-images wow fadeInRight" data-wow-delay=".6s">
+                                <img src="assets/images/about/about-1.png" alt="Images" />
+                            </div>
+                        </div>
+                        <div class="fun-fact-area wow fadeInUp" data-wow-delay=".7s">
+                            <div class="fun-fact-item">
+                                <div class="tj-count"><span class="odometer" data-count="609">0</span></div>
+                                <div class="fun-fact-text">
+                                    <h5 class="title">Out Total Clients Satisfication</h5>
+                                    <div class="desc">
+                                        <p>Professional known as architects are creating designs...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fun-fact-item">
+                                <div class="tj-count"><span class="odometer" data-count="94">0</span>%</div>
+                                <div class="fun-fact-text">
+                                    <h5 class="title">Out Total Happy Customers</h5>
+                                    <div class="desc">
+                                        <p>Professional known as architects are creating designs...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-left-image wow zoomIn" data-wow-delay=".8s">
+                <img src="assets/images/about/about-2.png" alt="Images" />
+            </div>
+        </section>
+        <!-- end: About Area -->
+
+        <!-- start: Price Area -->
+        <section class="tj-price-section" data-bg-image="assets/images/bg/price-bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="tj-heading-area text-center wow fadeInUp" data-wow-delay=".3s">
+                        <h2 class="title">Choose Affordable Plan</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-8 col-lg-12">
+                        <div class="price-item wow fadeInUp" data-wow-delay=".4s">
+                            <div class="price-percent">
+                                <div class="percent"><span class="dolor">$</span>69</div>
+                                <span class="month">/ Per Month</span>
+                            </div>
+                            <div class="price-list">
+                                <ul>
+                                    <li>Combination Drawing</li>
+                                    <li>Architect Hourly Rate</li>
+                                    <li>Construction Drawing</li>
+                                    <li>Selection of Material</li>
+                                    <li>Always plan support</li>
+                                </ul>
+                            </div>
+                            <div class="price-text">
+                                <h3 class="title">Professional</h3>
+                                <div class="desc">
+                                    <p>On a broader scale, architectures can also refer the planning ..</p>
+                                </div>
+                                <div class="price-button d-none d-lg-inline-flex">
+                                    <a class="tj-primary-btn-two" href="#">Get Started</a>
+                                </div>
+                            </div>
+                            <div class="price-buttons d-lg-none d-flex">
+                                <a class="tj-primary-btn-two" href="contact.html">Get Started</a>
+                            </div>
+                            <div class="active-text">
+                                <span>Popular</span>
+                            </div>
+                        </div>
+                        <div class="price-item wow fadeInUp" data-wow-delay=".5s">
+                            <div class="price-percent">
+                                <div class="percent"><span class="dolor">$</span>79</div>
+                                <span class="month">/ Per Month</span>
+                            </div>
+                            <div class="price-list">
+                                <ul>
+                                    <li>Combination Drawing</li>
+                                    <li>Architect Hourly Rate</li>
+                                    <li>Construction Drawing</li>
+                                    <li>Selection of Material</li>
+                                    <li>Always plan support</li>
+                                </ul>
+                            </div>
+                            <div class="price-text">
+                                <h3 class="title">Standard</h3>
+                                <div class="desc">
+                                    <p>On a broader scale, architectures can also refer the planning ..</p>
+                                </div>
+                                <div class="price-button d-none d-lg-inline-flex">
+                                    <a class="tj-primary-btn-two" href="#">Get Started</a>
+                                </div>
+                            </div>
+                            <div class="price-buttons d-lg-none d-flex">
+                                <a class="tj-primary-btn-two" href="contact.html">Get Started</a>
+                            </div>
+                            <div class="active-text">
+                                <span>Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="price-item active-price text-center wow fadeInRight" data-wow-delay=".6s">
+                            <h3 class="title">Premium</h3>
+                            <div class="desc">
+                                <p>On a broader scale, architectures can also refer the planning ..</p>
+                            </div>
+                            <div class="price-percent">
+                                <div class="percent"><span class="dolor">$</span>89</div>
+                                <span class="month">/ Per Month</span>
+                            </div>
+                            <div class="price-list">
+                                <ul>
+                                    <li>Architect Hourly Rate</li>
+                                    <li>Construction Drawing</li>
+                                    <li>Selection of Material</li>
+                                    <li>Always plan support</li>
+                                </ul>
+                            </div>
+                            <div class="price-button d-flex justify-content-center">
+                                <a class="tj-primary-btn" href="contact.html">Get Started</a>
+                            </div>
+                            <div class="active-text">
+                                <span>Popular</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Price Area -->
+
+        <!-- start: Service Area -->
+        <section class="tj-service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">Our Services</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row masonry-gallery">
+                    <div class="col-xl-3 col-lg-6 col-md-6 grid-item">
+                        <div class="service-item wow fadeInUp" data-wow-delay=".4s">
+                            <div class="service-content">
+                                <h5 class="service-title"><a href="service-details.html">Interdisciple Entity</a></h5>
+                                <div class="desc">
+                                    <p>Many architectures to services now incorporates and environments friendly design ..</p>
+                                </div>
+                                <div class="service-icon">
+                                    <!-- <i class="flaticon-employee"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="item-shapes">
+                                    <img src="assets/images/shapes/service-1.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="service-images">
+                                <img src="assets/images/service/service-1.jpg" alt="Images" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 grid-item">
+                        <div class="service-item wow fadeInUp" data-wow-delay=".5s">
+                            <div class="service-content">
+                                <h5 class="service-title"><a href="service-details.html">Commercial Building</a></h5>
+                                <div class="desc">
+                                    <p>Many architectures to services now incorporates and environments friendly design ..</p>
+                                </div>
+                                <div class="service-icon">
+                                    <!-- <i class="flaticon-apartment"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="item-shapes">
+                                    <img src="assets/images/shapes/service-1.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="service-images">
+                                <img src="assets/images/service/service-2.jpg" alt="Images" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 grid-item">
+                        <div class="service-item wow fadeInUp" data-wow-delay=".6s">
+                            <div class="service-content">
+                                <h5 class="service-title"><a href="service-details.html">Exterior Design</a></h5>
+                                <div class="desc">
+                                    <p>Many architectures to services now incorporates and environments friendly design ..</p>
+                                </div>
+                                <div class="service-icon">
+                                    <!-- <i class="flaticon-house-1"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="item-shapes">
+                                    <img src="assets/images/shapes/service-1.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="service-images">
+                                <img src="assets/images/service/service-3.jpg" alt="Images" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 grid-item">
+                        <div class="service-item wow fadeInUp" data-wow-delay=".7s">
+                            <div class="service-content">
+                                <h5 class="service-title"><a href="service-details.html">Remodeling Services</a></h5>
+                                <div class="desc">
+                                    <p>Many architectures to services now incorporates and environments friendly design ..</p>
+                                </div>
+                                <div class="service-icon">
+                                    <!-- <i class="flaticon-home"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="item-shapes">
+                                    <img src="assets/images/shapes/service-1.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="service-images">
+                                <img src="assets/images/service/service-4.jpg" alt="Images" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Service Area -->
+
+        <!-- start: Roll Area -->
+        <section class="tj-roll-section">
+            <div class="slide-roll">
+                <div class="roll-box roll-box-revers">
+                    <div class="roll-item">
+                        <span class="text">*Branding</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Architect</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Design</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Branding</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Architect</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Design</span>
+                    </div>
+                </div>
+                <div class="roll-box roll-box-revers">
+                    <div class="roll-item">
+                        <span class="text">*Branding</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Architect</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Design</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Branding</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Architect</span>
+                    </div>
+                    <div class="roll-item">
+                        <span class="text">*Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Roll Area -->
+
+        <!-- start: Steps Area -->
+        <section class="tj-steps-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area text-center wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">Our Easy 3 Steps</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="steps-content-area">
+                            <div class="steps-item wow fadeInUp" data-wow-delay=".4s">
+                                <h4 class="title">Planning & Ideas</h4>
+                                <div class="desc">
+                                    <p>Architects maintain communication with client throughout project, providing updates on progress..</p>
+                                </div>
+                                <div class="steps-number">
+                                    <span class="number" data-bg-image="assets/images/project/number.png">01</span>
+                                </div>
+                                <div class="steps-icon">
+                                    <!-- <i class="flaticon-urban-planning"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="steps-shape">
+                                    <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="steps-item wow fadeInUp" data-wow-delay=".5s">
+                                <h4 class="title">Furniture & Build</h4>
+                                <div class="desc">
+                                    <p>Architects maintain communication with client throughout project, providing updates on progress..</p>
+                                </div>
+                                <div class="steps-number">
+                                    <span class="number" data-bg-image="assets/images/project/number.png">02</span>
+                                </div>
+                                <div class="steps-icon">
+                                    <!-- <i class="flaticon-brick-wall"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="steps-shape">
+                                    <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                                </div>
+                            </div>
+                            <div class="steps-item wow fadeInUp" data-wow-delay=".6s">
+                                <h4 class="title">Feedback & Improve</h4>
+                                <div class="desc">
+                                    <p>Architects maintain communication with client throughout project, providing updates on progress..</p>
+                                </div>
+                                <div class="steps-number">
+                                    <span class="number" data-bg-image="assets/images/project/number.png">03</span>
+                                </div>
+                                <div class="steps-icon">
+                                    <!-- <i class="flaticon-continuous-improvement"></i> -->
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="steps-shape">
+                                    <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Steps Area -->
+
+        <!-- start: Difference Area -->
+        <section class="tj-difference-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area text-center wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">See the Differences</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="swiper difference-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="difference-area">
+                                <div class="difference-item">
+                                    <div class="difference-images">
+                                        <img src="assets/images/difference/difference-1.jpg" alt="Images" />
+                                    </div>
+                                    <div class="difference-text">
+                                        <span class="before">Before</span>
+                                    </div>
+                                </div>
+                                <div class="difference-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                                <div class="difference-item">
+                                    <div class="difference-text">
+                                        <span class="after">After</span>
+                                    </div>
+                                    <div class="difference-images">
+                                        <img src="assets/images/difference/difference-2.jpg" alt="Images" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="difference-navigation">
+                        <div class="slider-prev"><img src="assets/images/icons/slider-1.png" alt="Arrow" /></div>
+                        <div class="slider-next"><img src="assets/images/icons/slider-2.png" alt="Arrow" /></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Difference Area -->
+
+        <!-- start: Testimonial Area -->
+        <section class="tj-testimonial-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">Our Testimonials</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="testimonial-content-area">
+                            <div class="testimonial-item wow fadeInUp" data-wow-delay=".4s">
+                                <div class="testimonial-quote">
+                                    <img src="assets/images/icons/quote.svg" alt="Icon" />
+                                </div>
+                                <div class="desc">
+                                    <p>
+                                        Architectures is art form that goes to beyond the mere construction of buildings; it is a testament to human ingenuity, culture, & the evolving nature of society. In its essence, architecture is the poetry of spaces, an ever-evolving dialogue between
+                                        the builts to environments and the best people who inhabit it. ..
+                                    </p>
+                                </div>
+                                <div class="testimonial-auother">
+                                    <div class="auother-images">
+                                        <img src="assets/images/testimonial/images-1.png" alt="Images" />
+                                    </div>
+                                    <div class="auother-text">
+                                        <span>Ceo Founder</span>
+                                        <h5 class="title">Langua M. Tim</h5>
+                                    </div>
+                                    <div class="testimonial-shapes">
+                                        <img src="assets/images/shapes/test-1.png" alt="Shapes" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-two wow fadeInUp" data-wow-delay=".5s">
+                                <div class="testimonial-images">
+                                    <img src="assets/images/testimonial/images-3.png" alt="Images" />
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="google-icon">
+                                        <img src="assets/images/icons/google.svg" alt="Icon" />
+                                    </div>
+                                    <div class="testimonial-rating">
+                                        <div class="star-ratings">
+                                            <div class="fill-ratings" style="width: 73%">
+                                                <span>★★★★★</span>
+                                            </div>
+                                            <div class="empty-ratings">
+                                                <span>★★★★★</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-percent">
+                                        <span class="percent">4.9 / 5.0</span>
+                                        <span class="review">(from 20k reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item wow fadeInUp" data-wow-delay=".6s">
+                                <div class="testimonial-quote">
+                                    <img src="assets/images/icons/quote.svg" alt="Icon" />
+                                </div>
+                                <div class="desc">
+                                    <p>
+                                        Architectures is art form that goes to beyond the mere construction of buildings; it is a testament to human ingenuity, culture, & the evolving nature of society. In its essence, architecture is the poetry of spaces, an ever-evolving dialogue between
+                                        the builts to environments and the best people who inhabit it. ..
+                                    </p>
+                                </div>
+                                <div class="testimonial-auother">
+                                    <div class="auother-images">
+                                        <img src="assets/images/testimonial/images-2.png" alt="Images" />
+                                    </div>
+                                    <div class="auother-text">
+                                        <span>Manager </span>
+                                        <h5 class="title">Ramson Singhia</h5>
+                                    </div>
+                                    <div class="testimonial-shapes">
+                                        <img src="assets/images/shapes/test-1.png" alt="Shapes" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-bg">
+                <img src="assets/images/testimonial/test-bg.jpg" alt="Images" />
+            </div>
+        </section>
+        <!-- end: Testimonial Area -->
+
+        <!-- start: Team Area -->
+        <section class="tj-team-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area">
+                            <h2 class="title wow fadeInLeft" data-wow-delay=".3s">Our Team Member</h2>
+                            <a class="tj-gradient-btn wow fadeInRight" href="team-details.html" data-wow-delay=".4s">View More Members</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-bottom-content-area">
+                    <div class="team-content-area wow fadeInUp" data-wow-delay=".5s">
+                        <div class="team-item">
+                            <div class="team-images">
+                                <img src="assets/images/team/team-1.jpg" alt="Images" />
+                            </div>
+                            <div class="team-content">
+                                <span>Ceo Founder</span>
+                                <h5 class="team-title"><a href="team-details.html">Tanean Akrasen</a></h5>
+                            </div>
+                            <!-- <div class="team-share">
+                                <ul class="team-social">
+                                    <li>
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <ul class="team-social-icon">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-solid fa-wifi"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="team-item-shape">
+                            <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                        </div>
+                    </div>
+                    <div class="team-content-area wow fadeInUp" data-wow-delay=".6s">
+                        <div class="team-item">
+                            <div class="team-images">
+                                <img src="assets/images/team/team-2.jpg" alt="Images" />
+                            </div>
+                            <div class="team-content">
+                                <span>Art Director</span>
+                                <h5 class="team-title"><a href="team-details.html">Ramita Singha</a></h5>
+                            </div>
+                            <!-- <div class="team-share">
+                                <ul class="team-social">
+                                    <li>
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <ul class="team-social-icon">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-solid fa-wifi"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="team-item-shape">
+                            <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                        </div>
+                    </div>
+                    <div class="team-content-area wow fadeInUp" data-wow-delay=".7s">
+                        <div class="team-item">
+                            <div class="team-images">
+                                <img src="assets/images/team/team-3.jpg" alt="Images" />
+                            </div>
+                            <div class="team-content">
+                                <span>Creative Director</span>
+                                <h5 class="team-title"><a href="team-details.html">William Watson</a></h5>
+                            </div>
+                            <!-- <div class="team-share">
+                                <ul class="team-social">
+                                    <li>
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <ul class="team-social-icon">
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-solid fa-wifi"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="team-item-shape">
+                            <img src="assets/images/shapes/steps-shape.png" alt="Shapes" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Team Area -->
+
+        <!-- start: Cta Area -->
+        <section class="tj-cta-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cta-content-area">
+                            <div class="tj-heading-area wow fadeInLeft" data-wow-delay=".5s">
+                                <h2 class="title">Get Incredible Archietecture Design Right Now !</h2>
+                            </div>
+                            <div class="cta-button d-flex wow fadeInRight" data-wow-delay=".6s">
+                                <a class="tj-gradient-btn-two" href="contact.html">Get Appointments</a>
+                                <a class="tj-secondary-btn" href="contact.html">Our Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-bg-image">
+                <img src="assets/images/shapes/cta-1.png" alt="Images" />
+            </div>
+        </section>
+        <!-- end: Cta Area -->
+
+        <!-- start: FAQ Area -->
+        <section class="tj-faq-section">
+            <div class="faq-top-content-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7"></div>
+                        <div class="col-lg-5">
+                            <div class="faq_images d-lg-none">
+                                <img src="assets/images/project/faq-1.jpg" alt="Images" />
+                            </div>
+                            <div class="faq-text wow fadeInRight" data-wow-delay=".4s">
+                                <h2 class="title">Get Every Answer From here</h2>
+                                <div class="desc">
+                                    <p>
+                                        Some architects specialize in integrating technology into building design, including smart home feature, energy management systems, and automation. Some firms offer landscape design services in addition to building design.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-images wow zoomIn" data-wow-delay=".3s">
+                    <img src="assets/images/project/faq-1.jpg" alt="Images" />
+                </div>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="faq-wrapper">
+                            <div class="tj-progress-bar wow fadeInLeft" data-wow-delay=".5s">
+                                <div class="skills" data-percent="59%">
+                                    <span>59%</span>
+                                    <div class="skillbar"></div>
+                                </div>
+                                <div class="skills" data-percent="80%">
+                                    <span>80%</span>
+                                    <div class="skillbar"></div>
+                                </div>
+                                <div class="skills" data-percent="45%">
+                                    <span>45%</span>
+                                    <div class="skillbar"></div>
+                                </div>
+                            </div>
+                            <div class="accordion tj-faq wow fadeInRight" id="faqOne" data-wow-delay=".6s">
+                                <div class="faq-item">
+                                    <span class="number">01</span>
+                                    <div class="faq-content">
+                                        <button class="faq-title collpased" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true">
+                                            How can i make refund ?
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </button>
+                                        <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
+                                            <div class="accordion-body faq-text">
+                                                <p>
+                                                    Architecture is an art form that goes beyond the mere construction of building; it is testament to human ingenuity, culture, and the evolving nature of society.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="faq-item">
+                                    <span class="number">02</span>
+                                    <div class="faq-content">
+                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false">
+                                            How to coustomized kind theme ?
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </button>
+                                        <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
+                                            <div class="accordion-body faq-text">
+                                                <p>
+                                                    Architecture is an art form that goes beyond the mere construction of building; it is testament to human ingenuity, culture, and the evolving nature of society.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq-item">
+                                    <span class="number">03</span>
+                                    <div class="faq-content">
+                                        <button class="faq-title collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false">
+                                            What is terms and conditions ?
+                                            <i class="fa-solid fa-caret-down"></i>
+                                </button>
+                                        <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
+                                            <div class="accordion-body faq-text">
+                                                <p>
+                                                    Architecture is an art form that goes beyond the mere construction of building; it is testament to human ingenuity, culture, and the evolving nature of society.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-sec-shapes">
+                <img src="assets/images/shapes/faq-1.png" alt="Shapes" />
+            </div>
+        </section>
+        <!-- end: FAQ Area -->
+
+        <!-- start: Blog Area -->
+        <section class="tj-blog-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tj-heading-area wow fadeInUp" data-wow-delay=".3s">
+                            <h2 class="title">News & Articles</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay=".4s">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li class="active-text">20 Feb, 2024</li>
+                                    <li class="category-title"><a href="blog-single.html">Architecture</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="title"><a href="#">Learn the Right to Use Wall Sheet</a></h5>
+                                <div class="blog-images">
+                                    <a class="blog-image" href="#"><img src="assets/images/blog/blog-1.jpg" alt="Images" /></a>
+                                    <div class="blog-button">
+                                        <a class="tj-white-gradient-btn" href="blog-single.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay=".5s">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li class="active-text">17 Nov, 2024</li>
+                                    <li class="category-title"><a href="blog-single.html">Architecture</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="title"><a href="#">Best Equipment Sheet for and Interior</a></h5>
+                                <div class="blog-images">
+                                    <a class="blog-image" href="#"><img src="assets/images/blog/blog-2.jpg" alt="Images" /></a>
+                                    <div class="blog-button">
+                                        <a class="tj-white-gradient-btn" href="blog-single.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item wow fadeInUp" data-wow-delay=".6s">
+                            <div class="blog-meta">
+                                <ul>
+                                    <li class="active-text">30 June, 2024</li>
+                                    <li class="category-title"><a href="blog-single.html">Architecture</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-content">
+                                <h5 class="title"><a href="#">Way to Wall Sheet Learn the Right</a></h5>
+                                <div class="blog-images">
+                                    <a class="blog-image" href="#"><img src="assets/images/blog/blog-3.jpg" alt="Images" /></a>
+                                    <div class="blog-button">
+                                        <a class="tj-white-gradient-btn" href="blog-single.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Blog Area -->
+
+        <!-- start: Brand Section -->
+        <section class="tj-brand-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="swiper tj-brand-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="brand-item">
+                                        <a href="#"><img src="assets/images/brand/brand-1.png" alt="Images" /></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide wow fadeInUp" data-wow-delay=".4s">
+                                    <div class="brand-item">
+                                        <a href="#"><img src="assets/images/brand/brand-2.png" alt="Images" /></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="brand-item">
+                                        <a href="#"><img src="assets/images/brand/brand-3.png" alt="Images" /></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide wow fadeInUp" data-wow-delay=".6s">
+                                    <div class="brand-item">
+                                        <a href="#"><img src="assets/images/brand/brand-4.png" alt="Images" /></a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide wow fadeInUp" data-wow-delay=".7s">
+                                    <div class="brand-item">
+                                        <a href="#"><img src="assets/images/brand/brand-5.png" alt="Images" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: Brand Section -->
+    </main>
+
+    <!-- start: Footer Area -->
+    <footer class="tj-footer-area footer-1" data-bg-image="assets/images/bg/footer-bg.jpg">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-content-area">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="assets/images/logos/primary-logo.png" alt="Logo" /></a>
+                            </div>
+                            <div class="media-list">
+                                <ul>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Linkedin</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget footer1-col-2 widget_nav_menu">
+                            <div class="footer-title">
+                                <h4 class="title">About Us</h4>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Custom Widget</a></li>
+                                    <li><a href="#">Short Codes</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget footer1-col-3 widget_nav_menu">
+                            <div class="footer-title">
+                                <h4 class="title">Recognitions</h4>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Our Awards</a></li>
+                                    <li><a href="#">CSS Design</a></li>
+                                    <li><a href="#">The FWA</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget footer1-col-3 recent-post">
+                            <div class="footer-title">
+                                <h4 class="title">News</h4>
+                            </div>
+                            <div class="post-item">
+                                <div class="post-images">
+                                    <a href="project-details.html"><img src="assets/images/project/project-2.jpg" alt="Images" /></a>
+                                </div>
+                                <div class="post-content">
+                                    <span class="date">03 Feb, 2024</span>
+                                    <h6 class="post-title"><a href="project-details.html">Learn the Right way to use Wall Sheet</a></h6>
+                                </div>
+                            </div>
+                            <div class="post-item">
+                                <div class="post-images">
+                                    <a href="project-details.html"><img src="assets/images/project/project-3.jpg" alt="Images" /></a>
+                                </div>
+                                <div class="post-content">
+                                    <span class="date">12 Jan, 2024</span>
+                                    <h6 class="post-title"><a href="project-details.html">way to use Wall Sheet Learn the Right</a></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="footer-widget footer1-col-4 footer-contact">
+                            <div class="footer-title">
+                                <h4 class="title">Contact Us</h4>
+                            </div>
+                            <div class="contact-list">
+                                <ul>
+                                    <li>
+                                        <span><i class="fa-solid fa-phone"></i></span>
+                                        <a href="tel:+000(123)85511">+ 000 (123) 855 11</a>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa-solid fa-envelope"></i></span>
+                                        <a href="mailto:info@company.com
+                                ">info@company.com
+                                </a>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa-solid fa-location-dot"></i></span> 7525 14th Avenue NY
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright-content">
+                            <div class="desc">
+                                <p>Copyright © 2024 all rights reserved.</p>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end: Footer Area -->
+
+    <!-- start: Corsor Area -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+    <!-- end: Corsor Area -->
+
+    <!-- JS here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
